@@ -1,0 +1,6 @@
+{
+  "name": "Automatic code Generation for State Machine with robocomp",
+  "tagline": "",
+  "body": "My project Automatic code Generation for State Machine is a addition to robocomp project, for generate components with state machine of form simple, to do this you must follow these steps, published in following link:\r\n\r\nhttps://github.com/ibarbech/robocomp/blob/automaticstatesmachine/doc/Generate_State_Machine_With_robocompcdsl.md\r\n\r\nAll commits is in the follow link:\r\n\r\nhttps://github.com/ibarbech/robocomp/commits/automaticstatesmachine?author=ibarbech\r\n\r\nAlso, I created another repository, to store the code necessary to controller the hexapod phantom-X. This code has a state machine for each paw of the hexapod using a pressure sensor and an IMU (Inertial Measurement Unit), for stabilize the hexapod and to walk on uneven ground. \r\n\r\nThis project isn't finished, because exist a bottleneck or funnel, because 18 positions is sent to engines through a device Usb2Dynamixel:\r\n\r\nIf you run only one component of paw, this bottleneck or funnel is reduced and you can see that this component works the form correct.\r\n\r\nhttps://github.com/ibarbech/hexapod-robot",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
